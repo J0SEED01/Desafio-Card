@@ -1,0 +1,93 @@
+html{
+    font-size:62.5%; /* =10px */
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+
+body{
+    font-size: 1.6rem;
+    background-color: seagreen;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+img{
+    display: block;
+}
+
+h3,p{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.article{
+    width: 32.7rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+.top-victor{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.victor{
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2rem solid white;
+    margin-top: -6.5rem;
+}
+
+.datos-victor{
+    text-align: center;
+    margin: 0;
+}
+
+.nombre-victor{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.nombre-victor span{
+    font-weight: 400;
+    font-size: 1.8rem;
+    
+}
+
+.ciudad-victor{
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.social-victor{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    margin-top: 3rem
+}
+
+.social{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.social p{
+    margin-top: 0.8rem;
+    font-weight: 400;
+}
